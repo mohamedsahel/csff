@@ -1,0 +1,36 @@
+{
+  "name": "csff",
+  "version": "0.0.1",
+  "description": "Quickly create component starter folder/files",
+  "keywords": [
+    "component",
+    "starter",
+    "react"
+  ],
+  "homepage": "https://github.com/mohamedsahel/csff#readme",
+  "bugs": {
+    "url": "https://github.com/mohamedsahel/csff/issues"
+  },
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohamedsahel/csff.git"
+  },
+  "author": "Mohamed Sahel <sahelmohamed55@gmail.com> (www.mohamedsahel.com)",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3"
+  }
+}
